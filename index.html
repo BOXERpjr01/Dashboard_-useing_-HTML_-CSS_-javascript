@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../javascript/javascript.js"></script>
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="tab">
+        <div class="tab-list">
+            <div class="tab-symbol">
+                <div class="tab-image">
+                    <img class="tab-img" src="../../../Images/AlmariaNeoBonk/icons8-circle-64.png" alt="">
+                </div>
+                <div class="tab-image-h">
+                    <p class="tab-h3">Almaria</p>
+                    <p class="tab-h3" style="color: #626262;">Neo Bonk</p>
+                </div>
+            </div>
+            <div class="tab-menus">
+                <span onclick="myMenu()" class="dropbtn" id="Dropbtn">&#9776;</span>
+                <span onclick="myButton()" class="btn" id="Btn">&#9776;</span>
+                <div class="tab-menu" id="Tab-menu">
+                    <span class="closesidebare" id="closeSidebare" onclick="closesidebare()">x</span>
+                    <a href="#" id="overvew">Overview</a>
+                    <a href="#" >Payments</a>
+                    <a href="#" >Cards</a>
+                    <a href="#" >Account</a>
+                    <a href="#" >System</a>
+                    <a href="#" >Business</a>
+                </div>
+            </div>
+        </div>
+        <div class="tab-man-search">
+            <div class="tab-man">
+                <div class="tab-man-name">
+                    <h3 class="man-name">Matheo petherson</h3>
+                </div>
+                <div class="tab-man-image">
+                    <img class="man-img" src="../../../Images/AlmariaNeoBonk/icons8-man-48.png" alt="">                
+                </div>
+            </div>
+            <div class="tab-search">
+                <button class="tab-search-icon"><img src="../../../Images/AlmariaNeoBonk/white-search.png" alt=""></button>
+                <button class="tab-bell-icon"><img src="../../../Images/AlmariaNeoBonk/icons8-bell-24.png" alt=""></button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="body">
+            <div class="sidbares">
+                <nav class="sidbare" id="Sidbare">
+                    <a href="#" id="dasboard">
+                       <img class="dashboard" src="../../../Images/AlmariaNeoBonk/dashboard.png" alt="">
+                       <span>Dashboard</span>
+                    </a>
+                    <a href="#" id="scheduled">
+                        <img class="scheduled" src="../../../Images/AlmariaNeoBonk/selected.png" alt="">
+                        <span>Scheduled</span>
+                    </a>
+                    <a href="#" id="tranfers">
+                        <img class="tranfers" src="../../../Images/AlmariaNeoBonk/chevron.png" alt="">
+                        <span>Tranfers</span>
+                    </a>
+                    <a href="#" id="templates">
+                        <img class="templates" src="../../../Images/AlmariaNeoBonk/document.png" alt="">
+                        <span>Templates</span>
+                    </a>
+                    <a href="#" id="swift">
+                        <img class="swift" src="../../../Images/AlmariaNeoBonk/world.png" alt="">
+                         <span>SWIFT</span>
+                    </a>
+                    <a href="#" id="exchange">
+                        <img class="exchange" src="../../../Images/AlmariaNeoBonk/calendar.png" alt="">
+                        <span>Exchange</span>
+                    </a>
+                </nav>
+                <div class="end-sidbare">
+                    <p class="end-sidbare1">Almaria<sup>&copy;</sup></p>
+                    <p class="end-sidbare2">Almaria&copy;</p>
+                    <p class="end-sidbare3">All Right reserved 2021</p>
+                </div>
+            </div>
+            <div class="body1">
+                <div class="body-search">
+                    <span class="body-search-span">Service</span>
+                    <div>
+                        <img class="body-search-img" src="../../../Images/AlmariaNeoBonk/white-search.png" alt="">
+                        <input class="body-search-search" type="saerch" placeholder="Acount number">
+                    </div>
+                    <select class="body-search-selection" name="" id="">
+                        <option value="home" disabled selected>Home</option>
+                    </select>
+                    <button class="body-search-btn">Search</button>
+                </div>     
+                <div class="body-items">
+                    <div class="body-items-electricity">
+                        <div class="div-electricity">
+                            <div class="electricity-part1">
+                                <img class="electricity" src="../../../Images/AlmariaNeoBonk/electricity.png" alt="">    
+                            </div>
+                            <div class="electricity-part2">
+                                <p class="part1">Electricity</p>
+                                <p class="part2">UrkEnergo LTD.</p>
+                            </div>
+                        </div>
+                        <div class="div1-electricity">
+                            <p class="electricity-p">Go to service</p>
+                            <button class="btn-electricity">
+                                <img class="btn-electricity-right" src="../../../Images/AlmariaNeoBonk/right.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="body-items-heatinggas">
+                        <div class="div-heatinggas">
+                            <div class="heatinggas-part1">
+                                <img class="heatinggas" src="../../../Images/AlmariaNeoBonk/fire.png" alt="">    
+                            </div>
+                            <div class="heatinggas-part2">
+                                <p class="part1">Heating Gas</p>
+                                <p class="part2">Gozprom UA</p>
+                            </div>
+                        </div>
+                        <div class="div1-heatinggas">
+                            <p class="heatinggas-p">Go to service</p>
+                            <button class="btn-heatinggas">
+                                <img class="btn-heatinggas-right" src="../../../Images/AlmariaNeoBonk/right.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="body-items-taxonline">
+                        <div class="div-taxonline">
+                            <div class="taxonline-part1">
+                                <img class="taxonline" src="../../../Images/AlmariaNeoBonk/paper.png" alt="">    
+                            </div>
+                            <div class="taxonline-part2">
+                                <p class="part1">Tax online</p>
+                                <p class="part2">Kharkov 62 str.</p>
+                            </div>
+                        </div>
+                        <div class="div1-taxonline">
+                            <p class="taxonline-p">Go to service</p>
+                            <button class="btn-taxonline">
+                                <img class="btn-taxonline-right" src="../../../Images/AlmariaNeoBonk/right.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div> 
+                <div class="body-items-pragraph">
+                    <p>Service are paod according to the current state of the currency and tariff.</p>
+                </div>    
+                <div class="lasttranfer">
+                    <div class="lasttranfer1">
+                        <p class="lasttranfer1-p">Last tranfer</p>
+                        <p class="lasttranfer1-pp">Filter selected: more then 100$</p>
+                    </div>
+                    <div class="lasttranfer2">
+                        <button class="lasttranfer2-btn1"><img class="lasttranfer2-img1" src="../../../Images/AlmariaNeoBonk/funnel.png" alt=""></button>
+                        <button class="lasttranfer2-btn2"><img class="lasttranfer2-img2" src="../../../Images/AlmariaNeoBonk/plus.png" alt=""></button>
+                    </div>
+                </div>     
+                <div class="footer">
+                    <div class="footer-apple-inc">
+                        <div class="apple-image">
+                            <svg class="apple-img" fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="35px" height="35px"><path d="M25.565,9.785c-0.123,0.077-3.051,1.702-3.051,5.305c0.138,4.109,3.695,5.55,3.756,5.55 c-0.061,0.077-0.537,1.963-1.947,3.94C23.204,26.283,21.962,28,20.076,28c-1.794,0-2.438-1.135-4.508-1.135 c-2.223,0-2.852,1.135-4.554,1.135c-1.886,0-3.22-1.809-4.4-3.496c-1.533-2.208-2.836-5.673-2.882-9 c-0.031-1.763,0.307-3.496,1.165-4.968c1.211-2.055,3.373-3.45,5.734-3.496c1.809-0.061,3.419,1.242,4.523,1.242 c1.058,0,3.036-1.242,5.274-1.242C21.394,7.041,23.97,7.332,25.565,9.785z M15.001,6.688c-0.322-1.61,0.567-3.22,1.395-4.247 c1.058-1.242,2.729-2.085,4.17-2.085c0.092,1.61-0.491,3.189-1.533,4.339C18.098,5.937,16.488,6.872,15.001,6.688z"/></svg>
+                        </div>
+                        <div class="apple-name-p">
+                            <p class="apple-name-p1">Apple Inc.</p>
+                            <p class="apple-name-p2">Apple ID Payment</p>
+                        </div>
+                        <div class="apple-digit">
+                            <p class="apple-digit1">4012</p>
+                            <p class="apple-digit2">last four digits</p>
+                        </div>
+                        <div class="apple-date">
+                            <p class="apple-date1">28 oct. 21</p>
+                            <p class="apple-date2">Date Payment</p>
+                        </div>
+                        <div class="apple-salary">
+                            <p class="apple-salary1">-$550</p>
+                        </div>
+                    </div>
+                    <div class="footer-pinterest">
+                        <div class="pinterest-image">
+                            <svg class="pinterest-img" fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="40px" height="40px"><path d="M15,3C8.373,3,3,8.373,3,15c0,5.084,3.163,9.426,7.627,11.174c-0.105-0.949-0.2-2.406,0.042-3.442c0.218-0.936,1.407-5.965,1.407-5.965s-0.359-0.719-0.359-1.781c0-1.669,0.967-2.914,2.171-2.914c1.024,0,1.518,0.769,1.518,1.69c0,1.03-0.655,2.569-0.994,3.995c-0.283,1.195,0.599,2.169,1.777,2.169c2.133,0,3.772-2.249,3.772-5.495c0-2.873-2.064-4.882-5.012-4.882c-3.414,0-5.418,2.561-5.418,5.208c0,1.031,0.397,2.137,0.893,2.739c0.098,0.119,0.112,0.223,0.083,0.344c-0.091,0.379-0.293,1.194-0.333,1.361c-0.052,0.22-0.174,0.266-0.401,0.16c-1.499-0.698-2.436-2.889-2.436-4.649c0-3.785,2.75-7.262,7.929-7.262c4.163,0,7.398,2.966,7.398,6.931c0,4.136-2.608,7.464-6.227,7.464c-1.216,0-2.359-0.632-2.75-1.378c0,0-0.602,2.291-0.748,2.853c-0.271,1.042-1.002,2.349-1.492,3.146C12.57,26.812,13.763,27,15,27c6.627,0,12-5.373,12-12S21.627,3,15,3z"/></svg>
+                        </div>
+                        <div class="pinterest-name-p">
+                            <p class="pinterest-name-p1">pinterest Inc.</p>
+                            <p class="pinterest-name-p2">2 years subscription</p>
+                        </div>
+                        <div class="pinterest-digit">
+                            <p class="pinterest-digit1">5214</p>
+                            <p class="pinterest-digit2">last four digits</p>
+                        </div>
+                        <div class="pinterest-date">
+                            <p class="pinterest-date1">26 oct. 21</p>
+                            <p class="pinterest-date2">Date Payment</p>
+                        </div>
+                        <div class="pinterest-salary">
+                            <p class="pinterest-salary1">-$120</p>
+                        </div>
+                    </div>
+                    <div class="footer-warnerbros">
+                        <div class="warnerbros-image">
+                            <img class="warnerbros-img" src="../../../Images/AlmariaNeoBonk/Warner Bros.png1.png" alt="">
+                        </div>
+                        <div class="warnerbros-name-p">
+                            <p class="warnerbros-name-p1">Warner Bros.</p>
+                            <p class="warnerbros-name-p2">Cinema</p>
+                        </div>
+                        <div class="warnerbros-digit">
+                            <p class="warnerbros-digit1">2228</p>
+                            <p class="warnerbros-digit2">last four digits</p>
+                        </div>
+                        <div class="warnerbros-date">
+                            <p class="warnerbros-date1">22 oct. 21</p>
+                            <p class="warnerbros-date2">Date Payment</p>
+                        </div>
+                        <div class="warnerbros-salary">
+                            <p class="warnerbros-salary1">-$70</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second-body">
+                <div class="newpayment">
+                    <div class="newpayment-p">
+                        <p class="newpayment-p1">New payment</p>
+                        <p class="newpayment-p2">Choose a card to transfer money</p>
+                    </div>
+                    <div class="newpayment-btn">
+                        <a href="#" class="newpayment-btn1">Clear</a>
+                        <button class="newpayment-btn2"><img class="newpayment-btn-img1" src="../../../Images/AlmariaNeoBonk/mastercard.png" alt=""></button>
+                        <button class="newpayment-btn3"><img class="newpayment-btn-img2" src="../../../Images/AlmariaNeoBonk/visa.png" alt=""></button>
+                    </div>
+                </div>
+                <div class="internets">
+                    <div class="inter">
+                        <p id="int1">01/22</p>
+                        <p id="int2">
+                            <span>....</span>
+                            <sub>4012</sub>
+                        </p>
+                    </div>
+                    <div class="internet2">
+                        <p id="inter-prag">Internet</p>
+                        <div id="inter-prag1">
+                            <div id="inter-prag1-span">
+                                <span>$</span>
+                                <span>2,110</span>
+                            </div>
+                            <button id="inter-prag1-btn"><img src="../../../Images/AlmariaNeoBonk/whiteright.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="universals">
+                    <div class="univ">
+                        <p id="uni1">12/23</p>
+                        <p id="uni2">
+                            <span>....</span>
+                            <sub>2226</sub>
+                        </p>
+                    </div>
+                    <div class="universal2">
+                        <p id="univer-prag">Universal</p>
+                        <div id="univer-prag1">
+                            <div id="univer-prag1-span">
+                                <span>$</span>
+                                <span>5,621</span>
+                            </div>
+                            <button id="univer-prag1-btn"><img src="../../../Images/AlmariaNeoBonk/whiteright.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="golds">
+                    <div class="gold">
+                        <p id="gol1">12/23</p>
+                        <p id="gol2">
+                            <span>....</span>
+                            <sub>2226</sub>
+                        </p>
+                    </div>
+                    <div class="gold2">
+                        <p id="gold-prag">Gold</p>
+                        <div id="gold-prag1">
+                            <div id="gold-prag1-span">
+                                <span>$</span>
+                                <span>3,621</span>
+                            </div>
+                            <button id="gold-prag1-btn"><img src="../../../Images/AlmariaNeoBonk/whiteright.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="question">
+                    <p class="prag-question">Most frequently asked question</p>
+                    <label for="" class="label-queston">
+                       <p> Question</p>
+                        <input type="text" class="input-question" placeholder="Type here">
+                    </label>
+                    <div class="question-btn">
+                        <button class="sevebtn-question">seve</button>
+                        <a href="#" class="a-question"><svg class="a-svg-question" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" ><path d="M 9.6660156 2 L 9.1757812 4.5234375 C 8.3516137 4.8342536 7.5947862 5.2699307 6.9316406 5.8144531 L 4.5078125 4.9785156 L 2.171875 9.0214844 L 4.1132812 10.708984 C 4.0386488 11.16721 4 11.591845 4 12 C 4 12.408768 4.0398071 12.832626 4.1132812 13.291016 L 4.1132812 13.292969 L 2.171875 14.980469 L 4.5078125 19.021484 L 6.9296875 18.1875 C 7.5928951 18.732319 8.3514346 19.165567 9.1757812 19.476562 L 9.6660156 22 L 14.333984 22 L 14.824219 19.476562 C 15.648925 19.165543 16.404903 18.73057 17.068359 18.185547 L 19.492188 19.021484 L 21.826172 14.980469 L 19.886719 13.291016 C 19.961351 12.83279 20 12.408155 20 12 C 20 11.592457 19.96113 11.168374 19.886719 10.710938 L 19.886719 10.708984 L 21.828125 9.0195312 L 19.492188 4.9785156 L 17.070312 5.8125 C 16.407106 5.2676813 15.648565 4.8344327 14.824219 4.5234375 L 14.333984 2 L 9.6660156 2 z M 11.314453 4 L 12.685547 4 L 13.074219 6 L 14.117188 6.3945312 C 14.745852 6.63147 15.310672 6.9567546 15.800781 7.359375 L 16.664062 8.0664062 L 18.585938 7.40625 L 19.271484 8.5917969 L 17.736328 9.9277344 L 17.912109 11.027344 L 17.912109 11.029297 C 17.973258 11.404235 18 11.718768 18 12 C 18 12.281232 17.973259 12.595718 17.912109 12.970703 L 17.734375 14.070312 L 19.269531 15.40625 L 18.583984 16.59375 L 16.664062 15.931641 L 15.798828 16.640625 C 15.308719 17.043245 14.745852 17.36853 14.117188 17.605469 L 14.115234 17.605469 L 13.072266 18 L 12.683594 20 L 11.314453 20 L 10.925781 18 L 9.8828125 17.605469 C 9.2541467 17.36853 8.6893282 17.043245 8.1992188 16.640625 L 7.3359375 15.933594 L 5.4140625 16.59375 L 4.7285156 15.408203 L 6.265625 14.070312 L 6.0878906 12.974609 L 6.0878906 12.972656 C 6.0276183 12.596088 6 12.280673 6 12 C 6 11.718768 6.026742 11.404282 6.0878906 11.029297 L 6.265625 9.9296875 L 4.7285156 8.59375 L 5.4140625 7.40625 L 7.3359375 8.0683594 L 8.1992188 7.359375 C 8.6893282 6.9567546 9.2541467 6.6314701 9.8828125 6.3945312 L 10.925781 6 L 11.314453 4 z M 12 8 C 9.8034768 8 8 9.8034768 8 12 C 8 14.196523 9.8034768 16 12 16 C 14.196523 16 16 14.196523 16 12 C 16 9.8034768 14.196523 8 12 8 z M 12 10 C 13.111477 10 14 10.888523 14 12 C 14 13.111477 13.111477 14 12 14 C 10.888523 14 10 13.111477 10 12 C 10 10.888523 10.888523 10 12 10 z"/>
+                        </svg>More setting</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+</body>
+</html>
